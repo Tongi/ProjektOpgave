@@ -53,8 +53,8 @@ namespace TemperaturValidering
             while (true)
             {
                 Console.Clear();
-              
-                CheckVpnConnection();
+              //turned vpn check off.
+                //CheckVpnConnection();
 
 
                 Console.WriteLine("\nMulige handlinger:\n1. Tænd eller sluk lys i et rum\n2. Sæt fast temperatur for et rum\n3. Afslut");
